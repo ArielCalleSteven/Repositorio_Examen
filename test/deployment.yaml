@@ -4,7 +4,7 @@ metadata:
   name: web-deployment
 spec:
   replicas: 6
-    strategy: 
+  strategy: 
       type: RollingUpdate
       rollingUpdate:
        maxSurge: 1
